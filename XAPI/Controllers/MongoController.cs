@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using XLogic;
 
 namespace XApi.Controllers
 {
@@ -7,6 +8,11 @@ namespace XApi.Controllers
     [ApiController]
     public class MongoController : ControllerBase
     {
+        public MongoController(IMongo )
+        {
+                
+        }
+
         [HttpGet(Name = "TestMongo")]
         public void TestMongo()
         {

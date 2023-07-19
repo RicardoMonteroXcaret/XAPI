@@ -1,6 +1,8 @@
-﻿namespace XLogic
+﻿using XLogic.Interfaces;
+
+namespace XLogic
 {
-    public class Mongo
+    public class Mongo : IMongo
     {
 
     }
